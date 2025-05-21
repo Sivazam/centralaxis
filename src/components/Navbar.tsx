@@ -35,12 +35,12 @@ const Navbar: React.FC = () => {
             <Logo />
           </div>
           
-          <nav className="hidden md:flex space-x-6">
+          <nav className="hidden md:flex space-x-4">
             {navigationItems.map((item) => (
               <a
                 key={item.name}
                 href={item.href}
-                className="text-md font-bold text-white hover:text-gray-300 transition-colors"
+                className="text-sm text-white hover:text-gray-300 transition-colors"
               >
                 {item.name}
               </a>

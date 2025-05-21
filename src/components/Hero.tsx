@@ -10,11 +10,11 @@ const Hero: React.FC = () => {
       </div>
       
       <div className="container mx-auto px-4 relative">
-        <div className="max-w-6xl mx-auto text-center">
-          <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold text-white mb-4 " style={{lineHeight: '1.2',color:'#d2d2d2'}}>
+        <div className="max-w-5xl mx-auto text-center">
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4 " style={{lineHeight: '1.2',color:'#d2d2d2'}}>
             Data Center Management Software
           </h1>
-          <p className="text-gray-300 text-lg md:text-xl mb-8 max-w-2xl mx-auto" style={{lineHeight: '2',color:'#5d5d65'}}>
+          <p className="text-gray-300 text-lg md:text-lg mb-8 max-w-2xl mx-auto" style={{lineHeight: '2',color:'#5d5d65'}}>
             Increase uptime, reduce costs, automate operations, and stay compliant.
             Built for colocations, data centers, and cloud providers.
           </p>

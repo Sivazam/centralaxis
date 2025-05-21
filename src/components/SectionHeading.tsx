@@ -30,8 +30,8 @@ const SectionHeading: React.FC<SectionHeadingProps> = ({
           ))}
         </div>
       )}
-      <h2 className="text-2xl md:text-3xl lg:text-5xl font-bold text-white mb-4">{title}</h2>
-      {subtitle && <p className="text-gray-400 max-w-3xl mx-auto text-2xl">{subtitle}</p>}
+      <h2 className="text-xl md:text-3xl lg:text-3xl font-bold text-white mb-4">{title}</h2>
+      {subtitle && <p className="text-gray-100 max-w-5xl mx-auto text-xl" style={{fontWeight:'100'}}>{subtitle}</p>}
     </div>
   );
 };

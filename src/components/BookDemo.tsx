@@ -12,7 +12,7 @@ const BookDemo: React.FC = () => {
         }}
       >
         <div
-          className="max-w-7xl mx-auto p-8 md:p-12 rounded-lg border border-gray-700 bg-opacity-10 backdrop-blur-md shadow-lg"
+          className="max-w-5xl mx-auto p-8 md:p-12 rounded-lg border border-gray-700 bg-opacity-10 backdrop-blur-md shadow-lg"
           style={{
             backgroundImage: `url('https://www.centralaxis.com/background.png ')`,
             backgroundSize: 'cover',
@@ -30,18 +30,17 @@ const BookDemo: React.FC = () => {
 
           {/* Content */}
           <div className="relative z-10 text-center">
-            <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">Book a Demo</h2>
+            <h2 className="text-3xl md:text-5xl font-bold text-white mb-4">Book a Demo</h2>
             <p className="text-gray-300 mb-8 text-xl md:text-2xl">
               See how CentralAxis can revolutionize your data center operations.
             </p>
            <div className="flex justify-center">
-            <Button
-              variant="secondary"
-              size="lg"
-              className="bg-white text-black font-bold hover:bg-gray-400 transition-colors duration-300"
-            >
-              Schedule Now
-            </Button>
+          <button
+            className="bg-white text-black font-bold py-2 px-6 rounded-md text-lg hover:bg-gray-300 transition-colors duration-300"
+            type="button"
+          >
+            Schedule Now
+          </button>
           </div>
           </div>
         </div>

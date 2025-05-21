@@ -37,9 +37,9 @@ const FAQ: React.FC = () => {
             tags={['FAQs']}
             subtitle="Find answers to common questions about our solutions."
           />
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8" style={{padding:'0 12rem',paddingTop:'2rem'}}>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8" style={{padding:'0 3rem',paddingTop:'3rem'}}>
           {faqs.map((faq, index) => (
-            <div key={index} className="bg-gray-900/50 rounded-lg p-6">
+            <div key={index} className="rounded-lg p-6">
               <h3 className="text-lg font-medium text-white mb-3">{faq.question}</h3>
               <p className="text-gray-400 text-sm leading-relaxed">{faq.answer}</p>
             </div>

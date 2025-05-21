@@ -13,8 +13,8 @@ const Footer: React.FC = () => {
         
         {/* Logo and Copyright */}
         <div className=" flex items-center gap-4">
-          <img src={logo} alt="Logo" style={{width:'4rem'}} />
-          <p className="text-white-700 text-lg">
+          <img src={logo} alt="Logo" style={{width:'3rem'}} />
+          <p className="text-white-700 text-md">
             Copyright © {new Date().getFullYear()}.
           </p>
         </div>
